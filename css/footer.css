@@ -1,0 +1,36 @@
+/* footer 영역 */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 30px;
+  border-top: 3px solid gray;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-icons__img {
+  width: 30px;
+}
+
+.footer-icons {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 10px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.footer-icons__desc {
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
